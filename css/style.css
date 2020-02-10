@@ -160,7 +160,7 @@ input[type="checkbox"] {
 
 .mob-search-item {
     display: none;
-    visibility: hidden;
+   
 }
 
 .header-search {
@@ -1381,7 +1381,7 @@ input[type="checkbox"] {
     }
     .mob-search-item {
         display: block;
-        visibility: visible;
+        
     }
     .nav-ul {
         height: 0;
