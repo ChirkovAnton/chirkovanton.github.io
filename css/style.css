@@ -748,9 +748,7 @@ input[type="checkbox"] {
 .video-pres-video-mobile {
     position: absolute;
     width: 100%;
-    
     height: 705px;
-    
     top: 0;
     left: 0;
     margin: 0;
@@ -1365,12 +1363,18 @@ input[type="checkbox"] {
     }
     .mob-search {
         display: block;
+        height: 55px;
+        width: 55px;
         margin-left: 48%;
         padding-left: 30px;
+        background-image: url(../img/icons/icon-search-png.png);
+        background-repeat: no-repeat;
+        background-size: 50px
     }
     .mob-search:focus {
-        height: 30px;
-        top: 14px;
+        height: 50px;
+        width: 350px;
+        top: 54px;
         right: 33%
     }
     .main-logo {
@@ -1406,21 +1410,22 @@ input[type="checkbox"] {
         flex-direction: column;
         position: absolute;
         left: 10%;
-        top: 50px;
+        top: 60px;
+        z-index: 55;
     }
     .nav-item {
-        min-height: 50px;
+        min-height: 150px;
         width: 100%;
         text-align: center;
         background-color: black;
-        padding-top: 15px;
+        padding-top: 38px;
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
         border-bottom: 3px solid white;
     }
     .nav-item a {
-        font-size: 20px;
+        font-size: 55px;
     }
     input[type="checkbox"]:checked ~ .nav-ul {
         visibility: visible;
@@ -1513,6 +1518,7 @@ input[type="checkbox"] {
         flex-wrap: nowrap;
         background-size: cover;
         margin-top: 30px;
+        padding: 0 15%
     }
     .aside-brands-a {
         width: 100px;
@@ -1532,5 +1538,6 @@ input[type="checkbox"] {
         min-height: 173px;
         flex-wrap: wrap;
         justify-content: center;
+        padding: 0 20%;
     }
 }
