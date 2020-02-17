@@ -1371,8 +1371,8 @@ input[type="checkbox"] {
         padding-left: 50px;
         background-image: url(../img/icons/icon-search-png.png);
         background-repeat: no-repeat;
-        background-size: 50px;
-        placeholder: none;
+        background-size: 100px;
+        
     }
     .mob-search:focus {
         height: 50px;
